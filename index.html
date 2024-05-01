@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interno</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="./src/output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9b6ccb31fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body class="">
+    <nav id="navdata" class="shadow-2xl shadow-red-400">
+        <div class="bg-white py-2 flex justify-between lg:justify-around items-center  fixed left-0 right-0  z-30 ">
+            <div>
+                <img src="./assets/logo.svg" alt="" class="object-cover">
+            </div>
+
+            <ul class="  licon text-black  gap-5 font-semibold hidden lg:flex ">
+                <li
+                    class=" cursor-pointer border border-transparent hover:border-b-mycolor  hover:border-t-mycolor border-2">
+                    <a href="/">Home</a></li>
+                <li class=" cursor-pointer hover:border-b-mycolor hover:border-t-mycolor border-2 border-transparent">
+                   <a href="#about"> About</a></li>
+                <li class=" cursor-pointer hover:border-b-mycolor hover:border-t-mycolor border-2 border-transparent">
+                 <a href="#test">Testimonial</a> </li>
+                <li class=" cursor-pointer hover:border-b-mycolor hover:border-t-mycolor border-2 border-transparent">
+                   <a href="#project"> Our Work</a></li>
+                <li class=" cursor-pointer hover:border-b-mycolor hover:border-t-mycolor border-2 border-transparent">
+                   <a href="#news">News</a> </li>
+                <li class=" cursor-pointer hover:border-b-mycolor hover:border-t-mycolor border-2 border-transparent">
+                   <a href="#contact">Contact</a></li>
+            </ul>
+
+
+            <div id="bars" class="px-3  lg:hidden" onclick="handlenav()">
+                <span class="fa-solid fa-bars"></span>
+            </div>
+            <div id="cross" class="px-3 hidden" onclick="handlenav2()">
+                <span class="fa-solid fa-close"></span>
+            </div>
+
+        </div>
+        <ul id="sm-nav"
+            class="pt-30 licon z-20 fixed text-black  font-semibold  hidden lg:hidden  w-screen bg-white gap-5 h-screen p-5">
+            <li
+             class=" mt-20 cursor-pointer border border-transparent hover:border-b-mycolor  hover:border-t-mycolor border-2">
+            <a href="/">Home</a></li>
+        <li class=" cursor-pointer hover:border-b-mycolor  border-2 border-transparent">
+           <a href="#about"> About</a></li>
+        <li class=" cursor-pointer hover:border-b-mycolor  border-2 border-transparent">
+         <a href="#test">Testimonial</a> </li>
+        <li class=" cursor-pointer hover:border-b-mycolor  border-2 border-transparent">
+           <a href="#project"> Our Work</a></li>
+        <li class=" cursor-pointer hover:border-b-mycolor  border-2 border-transparent">
+           <a href="#news">News</a> </li>
+        <li class=" cursor-pointer hover:border-b-mycolor  border-2 border-transparent">
+           <a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+
+
+    <main class="max-w-[1920px] mx-auto bg-white  "
+        style="background: url('./assets/grid.png'); background-size:contain;justify-content: center;">
+        <section id="do"
+            class=" h-[640px] xl-h-[840px] bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[290px] relative z-10 object-cover flex items-center  justify-center"
+            style="background-image: url('../assets/hero/bg.jpg'); background-size:cover;">
+
+            <!-- focus hare -->
+
+
+
+            <!-- focus end -->
+
+            <div
+                class="home-text flex flex-col gap-5  text-center md:text-start md:items-start items-center overflow-hidden">
+                <p class=" hero-txt text-4xl  lg:text-5xl font-semibold"> Let Your <span class="text-mycolor">Home </span></p>
+                <div class="flex gap-3 justify-center md:justify-normal">
+                    <p class=" text-4xl  lg:text-5xl font-semibold "> Be Uniqu<span class="text-mycolor">e</span>
+                    </p>
+                    <div class="floating flex relative group ">
+                        <div id="one" class="h-20 w-20  rounded-full "
+                            style="background: url('./assets/hero/bg.jpg'); background-size: cover ;">
+                        </div>
+                        <div id="one" class="h-20 w-20 absolute  rounded-full group-hover:left-[20px]"
+                            style="background: url('https://www.decorilla.com/online-decorating/wp-content/uploads/2022/01/All-white-interior-living-room.jpeg'); background-size: cover ;">
+                        </div>
+                        <div id="one" class="h-20 w-20 absolute  rounded-full group-hover:left-[30px]"
+                            style="background: url('https://t3.ftcdn.net/jpg/03/73/51/06/360_F_373510690_cQQLplLNbi0l84A7sftZq8dSvdKOGCcj.jpg'); background-size: cover ;">
+                        </div>
+                        <div id="one" class="h-20 w-20 absolute  rounded-full group-hover:left-[40px]"
+                            style="background: url('https://media.istockphoto.com/id/1158575634/photo/interior-with-armchair-and-coffee-table-3d-rendering.jpg?s=612x612&w=0&k=20&c=eBrIx3t7p5yElgACCtkJ2Z0gUCTfBfjF_tWPRHU6cmw='); background-size: cover ;">
+                        </div>
+
+                        <div id="one" class="h-20 w-20 absolute  rounded-full group-hover:left-[50px]"
+                        style="background: url('https://i0.wp.com/koloapp.in/magazine/wp-content/uploads/2022/08/10-Astonishing-All-White-Interior-Design-Ideas.png?fit=1600%2C1200&ssl=1'); background-size: cover ;">
+                    </div>
+                     
+                    </div>
+                </div>
+
+                <p class="text-lg text-center text-slate-950">There are many variations of the passages of lorem Ipsum
+                    from available,variations of
+                    the passages.
+                </p>
+                <div>
+                    <button
+                        class="bg-black text-white w-fit py-3 px-3 rounded-lg hover:bg-white border hover:text-black hover:border-black animate-bounce ">
+                        Get free estimation</button>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <section class="steps">
+            <div class="max-w-[900px] h-full mx-auto p-2 md:p-0">
+                <section id="about">
+                    <div class="grid  grid-cols-1   gap-10 md:grid-cols-3 text-center pt-10">
+                        <div class="flex flex-col pr-0 md:pr-5 justify-center text-center">
+                            <i class="fa-solid fa-compass-drafting text-mycolor"></i>
+                            <p> Project Planning</p>
+                            <p>There are many variations of the passages of lorem Ipsum from available, majority.</p>
+                            <div>
+                                <button class="bg-slate-300 border w-fit text-center py-2 px-3 rounded-lg group ">Read
+                                    more
+                                    <span
+                                        class="fa-solid fa-arrow-down group-hover:animate-bounce text-mycolor"></span></button>
+                            </div>
+                        </div>
+                        <div class="flex flex-col ">
+                            <span class="fa-solid fa-star text-mycolor"></span>
+                            <p>Gaining Materials</p>
+                            <p>There are many variations of the passages of lorem Ipsum from available, majority.</p>
+                            <div>
+                                <button class="bg-slate-300 border w-fit text-center py-2  px-3 rounded-lg group">Read
+                                    more
+                                    <span
+                                        class="fa-solid fa-arrow-down group-hover:animate-bounce text-mycolor"></span></button>
+                            </div>
+
+                        </div>
+                        <div class="flex flex-col  justify-end pl-0 md:pl-10 ">
+                            <span class="fa-solid fa-tools text-mycolor"></span>
+                            <p> Project Execution</p>
+                            <p>There are many variations of the passages of lorem Ipsum from available, majority.</p>
+                            <div>
+                                <button class="bg-slate-300 border w-fit text-center py-2 px-3 rounded-lg group">Read
+                                    more
+                                    <span
+                                        class="fa-solid fa-arrow-down group-hover:animate-bounce text-mycolor"></span></button>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2  mt-20 gap-0 ">
+                        <div class="flex flex-col  md:items-start  order-2 md:order-1 p-3 ">
+                            <p class="font-semibold text-3xl"> We Create The Art <br>
+                                Of Stylish Living <br>
+                                Stylishly</p>
+                            <p class="text-slate-600 ">It is a long established fact that<br>
+                                a reader will be distracted by
+                                the <br> of readable content of a page <br>
+                                when lookings at its layouts the <br>
+                                points of using
+                                that it has a <br> more-or-less normal.</p>
+
+                            <div class="flex gap-3 mt-3">
+                                <div class="bg-mycolor rounded-full p-3 w-fit">
+                                    📞
+                                </div>
+                                <div>
+                                    <p>7986450748</p>
+                                    <p>Call Us Anytime</p>
+                                </div>
+                            </div>
+                            <button class="bg-black text-white max-w-fit py-2 px-3 rounded-lg mt-5"> Get Free Estimation
+                                <span class="fa-solid fa-arrow-right text-mycolor"></span></button>
+                        </div>
+
+                        <div class="order-1 md:order-2 mb-5 md:mb-0">
+                            <div class="img-con flex items-center  overflow-hidden">
+                                <img class="h-50" src="./assets/about/img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="test" class=" mt-5 border">
+
+                <h2 class=" bg-mycolor text-black flex justify-center  items-center rounded-lg p-5 text-2xl font-semibold">What Clients Say</h2>
+
+                <swiper-container class="mySwiper hidden md:grid grid-cols-1 mg:grid-cols-3" pagination="true"
+                    pagination-clickable="true" navigation="true" space-between="30" centered-slides="true"
+                    autoplay-delay="2500" autoplay-disable-on-interaction="false">
+                    <swiper-slide>
+                        <div class="p-2 grid grid-cols-1 md:grid-cols-3 gap-2">
+                            <div class="outer-card bg-white h-fit p-5 rounded-lg ">
+                                <div class="inner-card">
+                                    <div class="flex gap-3">
+                                        <div class="profile">
+                                            <img src="./assets/testimonial/01.png" alt="">
+                                        </div>
+                                        <div class="p-info">
+                                            <p>Nattasha Mith</p>
+                                            <p> Greenville, USA</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, doloremque.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="outer-card bg-white h-fit p-5 rounded-lg ">
+                                <div class="inner-card">
+                                    <div class="flex gap-3">
+                                        <div class="profile">
+                                            <img src="./assets/testimonial/01.png" alt="">
+                                        </div>
+                                        <div class="p-info">
+                                            <p>Nattasha Mith</p>
+                                            <p> Greenville, USA</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, doloremque.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="outer-card bg-white h-fit p-5 rounded-lg ">
+                                <div class="inner-card">
+                                    <div class="flex gap-3">
+                                        <div class="profile">
+                                            <img src="./assets/testimonial/01.png" alt="">
+                                        </div>
+                                        <div class="p-info">
+                                            <p>Nattasha Mith</p>
+                                            <p> Greenville, USA</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, doloremque.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center">
+                            <div class="dot-cons w-fit flex gap-2 justify-center items-center">
+                                <div class="p-1 bg-white rounded-full"></div>
+                                <div class="p-1 bg-white rounded-full"></div>
+                                <div class="p-1 bg-white rounded-full"></div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="p-2 grid grid-cols-1 md:grid-cols-3 gap-2">
+                            <div class="outer-card bg-white h-fit p-5 rounded-lg ">
+                                <div class="inner-card">
+                                    <div class="flex gap-3">
+                                        <div class="profile">
+                                            <img src="./assets/testimonial/01.png" alt="">
+                                        </div>
+                                        <div class="p-info">
+                                            <p>Nattasha Mith</p>
+                                            <p> Greenville, USA</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, doloremque.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="outer-card bg-white h-fit p-5 rounded-lg ">
+                                <div class="inner-card">
+                                    <div class="flex gap-3">
+                                        <div class="profile">
+                                            <img src="./assets/testimonial/02.png" alt="">
+                                        </div>
+                                        <div class="p-info">
+                                            <p>Nattasha Mith</p>
+                                            <p> Greenville, USA</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, doloremque.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="outer-card bg-white h-fit p-5 rounded-lg ">
+                                <div class="inner-card">
+                                    <div class="flex gap-3">
+                                        <div class="profile">
+                                            <img src="./assets/testimonial/02.png" alt="">
+                                        </div>
+                                        <div class="p-info">
+                                            <p>Nattasha Mith</p>
+                                            <p> Greenville, USA</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, doloremque.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center">
+                            <div class="dot-cons w-fit flex gap-2 justify-center items-center">
+                                <div class="p-1 bg-white rounded-full"></div>
+                                <div class="p-1 bg-white rounded-full"></div>
+                                <div class="p-1 bg-white rounded-full"></div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="p-2 grid grid-cols-1 md:grid-cols-3 gap-2">
+                            <div class="outer-card bg-white h-fit p-5 rounded-lg ">
+                                <div class="inner-card">
+                                    <div class="flex gap-3">
+                                        <div class="profile">
+                                            <img src="./assets/testimonial/02.png" alt="">
+                                        </div>
+                                        <div class="p-info">
+                                            <p>Nattasha Mith</p>
+                                            <p> Greenville, USA</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, doloremque.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="outer-card bg-white h-fit p-5 rounded-lg ">
+                                <div class="inner-card">
+                                    <div class="flex gap-3">
+                                        <div class="profile">
+                                            <img src="./assets/testimonial/02.png" alt="">
+                                        </div>
+                                        <div class="p-info">
+                                            <p>Nattasha Mith</p>
+                                            <p> Greenville, USA</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, doloremque.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="outer-card bg-white h-fit p-5 rounded-lg ">
+                                <div class="inner-card">
+                                    <div class="flex gap-3">
+                                        <div class="profile">
+                                            <img src="./assets/testimonial/02.png" alt="">
+                                        </div>
+                                        <div class="p-info">
+                                            <p>Nattasha Mith</p>
+                                            <p> Greenville, USA</p>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, doloremque.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center">
+                            <div class="dot-cons w-fit flex gap-2 justify-center items-center">
+                                <div class="p-1 bg-white rounded-full"></div>
+                                <div class="p-1 bg-white rounded-full"></div>
+                                <div class="p-1 bg-white rounded-full"></div>
+                            </div>
+                        </div>
+                    </swiper-slide>
+
+                </swiper-container>
+
+                <!-- swipper for sm -->
+                <swiper-container class="mySwiper md:hidden" pagination="true" pagination-clickable="true"
+                    navigation="true" space-between="30" centered-slides="true" autoplay-delay="2500"
+                    autoplay-disable-on-interaction="false">
+                    <swiper-slide>
+                        <div class="outer-card bg-white h-fit p-5 rounded-lg ">
+                            <div class="inner-card">
+                                <div class="flex flex-col justify-center items-center gap-3">
+                                    <div class="profile h-20 w-20">
+                                        <img src="./assets/testimonial/01.png" alt="">
+                                    </div>
+                                    <div class="p-info">
+                                        <p>Nattasha Mith</p>
+                                        <p> Greenville, USA</p>
+                                    </div>
+                                </div>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, doloremque.
+                                </p>
+                            </div>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="outer-card bg-white h-fit p-5 rounded-lg ">
+                            <div class="inner-card">
+                                <div class="flex flex-col justify-center items-center gap-3">
+                                    <div class="profile h-20 w-20 ">
+                                        <img src="./assets/testimonial/01.png" alt="">
+                                    </div>
+                                    <div class="p-info">
+                                        <p>Nattasha Mith</p>
+                                        <p> Greenville, USA</p>
+                                    </div>
+                                </div>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, doloremque.
+                                </p>
+                            </div>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="outer-card bg-white h-fit p-5 rounded-lg ">
+                            <div class="inner-card">
+                                <div class="flex flex-col justify-center items-center gap-3">
+                                    <div class="profile h-20 w-20">
+                                        <img src="./assets/testimonial/01.png" alt="">
+                                    </div>
+                                    <div class="p-info">
+                                        <p>Nattasha Mith</p>
+                                        <p> Greenville, USA</p>
+                                    </div>
+                                </div>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, doloremque.
+                                </p>
+                            </div>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="outer-card bg-white h-fit p-5 rounded-lg ">
+                            <div class="inner-card">
+                                <div class="flex flex-col justify-center items-center gap-3">
+                                    <div class="profile h-20 w-20">
+                                        <img src="./assets/testimonial/01.png" alt="">
+                                    </div>
+                                    <div class="p-info">
+                                        <p>Nattasha Mith</p>
+                                        <p> Greenville, USA</p>
+                                    </div>
+                                </div>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, doloremque.
+                                </p>
+                            </div>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="outer-card bg-white h-fit p-5 rounded-lg ">
+                            <div class="inner-card">
+                                <div class="flex flex-col justify-center items-center gap-3">
+                                    <div class="profile h-20 w-20">
+                                        <img src="./assets/testimonial/01.png" alt="">
+                                    </div>
+                                    <div class="p-info">
+                                        <p>Nattasha Mith</p>
+                                        <p> Greenville, USA</p>
+                                    </div>
+                                </div>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, doloremque.
+                                </p>
+                            </div>
+                        </div>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <div class="outer-card bg-white h-fit p-5 rounded-lg ">
+                            <div class="inner-card">
+                                <div class="flex flex-col justify-center items-center gap-3">
+                                    <div class="profile h-20 w-20 ">
+                                        <img src="./assets/testimonial/01.png" alt="">
+                                    </div>
+                                    <div class="p-info">
+                                        <p>Nattasha Mith</p>
+                                        <p> Greenville, USA</p>
+                                    </div>
+                                </div>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, doloremque.
+                                </p>
+                            </div>
+                        </div>
+                    </swiper-slide>
+
+                </swiper-container>
+            </section>
+
+                <!-- brands -->
+                <div class="brands flex mt-20 justify-between items-center">
+                    <div>
+                        <img class=" max-w-30" src="./assets/brands/01.svg" alt="">
+                    </div>
+                    <div>
+                        <img class=" max-w-30" src="./assets/brands/02.svg" alt="">
+                    </div>
+                    <div>
+                        <img class=" max-w-30" src="./assets/brands/03.svg" alt="">
+                    </div>
+                    <div>
+                        <img class=" max-w-30" src="./assets/brands/04.svg" alt="">
+                    </div>
+                    <div>
+                        <img class=" max-w-30" src="./assets/brands/05.svg" alt="">
+                    </div>
+
+                </div>
+
+                <!-- pojects -->
+                <section id="project">
+                <div class="text-center">
+                    <div class="mb-10">
+                    <h2 class="text-3xl mt-10 mb-5">Follow Our Projects</h2>
+                    <p class=" md:text-center text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Ipsa, minus!</p>
+                    <p class="md:pb-0 text-justify md:text-center pb-5">Lorem ipsum dolor sit, . Ipsa, minus!</p>
+                </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                        <div>
+                            <img src="./assets/work/01.png" alt="">
+                            <div class="w-full   p-2 flex justify-between">
+                                <div class="flex flex-col  text-justify">
+                                    <p>Mordern Kitchen</p>
+                                    <p>Decor/Architecture</p>
+                                </div>
+
+                                <span class="fa-solid fa-arrow-right bg-mycolor rounded-full p-4  animate-pulse"></span>
+
+
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./assets/work/02.png" alt="">
+                            <div class="w-full   p-2 flex justify-between">
+                                <div class="flex flex-col  text-justify">
+                                    <p>Mordern Kitchen</p>
+                                    <p>Decor/Architecture</p>
+                                </div>
+
+                                <span class="fa-solid fa-arrow-right bg-mycolor rounded-full p-4  animate-pulse"></span>
+
+
+                            </div>
+                        </div>
+                        <div>
+                            <img src="./assets/work/03.png" alt="">
+                            <div class="w-full   p-2 flex justify-between">
+                                <div class="flex flex-col  text-justify">
+                                    <p>Mordern Kitchen</p>
+                                    <p>Decor/Architecture</p>
+                                </div>
+
+                                <span class="fa-solid fa-arrow-right bg-mycolor rounded-full p-4  animate-pulse"></span>
+
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <img src="./assets/work/04.png" alt="">
+                            <div class="w-full   p-2 flex justify-between">
+                                <div class="flex flex-col  text-justify">
+                                    <p>Mordern Kitchen</p>
+                                    <p>Decor/Architecture</p>
+                                </div>
+
+                                <span class="fa-solid fa-arrow-right bg-mycolor rounded-full p-4  animate-pulse"></span>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                </section>
+            </div>
+        </section>
+
+        <section>
+            <div class="w-ful bg-mycolor flex justify-center  align-middle p-20 mt-10">
+                <div class="flex items-center  gap-20 text-white flex-wrap">
+                    <div class=" border-r-red-300 text-center ">
+                        <p class="text-3xl font-semibold animate-bounce">12</p>
+                        <p>Year of Experience </p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-3xl font-semibold animate-bounce">85</p>
+                        <p>Project Complited</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-3xl font-semibold animate-bounce">15</p>
+                        <p>Active project</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-3xl font-semibold animate-bounce ">95</p>
+                        <p>Happy Coustomrs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section >
+            <div class="max-w-[900px] h-full mx-auto p-2 md:p-0">
+                <section id="news">
+                <div class="text-center mt-20">
+                    <h2 class="font-semibold text-3xl">Articles & News</h2>
+                    <p class="text-justify md:text-center">It is a long established fact that a reader will be
+                        distracted by the of <br>readable content of
+                        a page when lookings at its layouts the points of using.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 mt-10 gap-5">
+                    <div class="rounded-3xl  border p-2">
+                        <div class="card rounded-3xl overflow-hidden">
+                            <img src="./assets/news/01.png" alt="">
+                        </div>
+                        <div>
+                            <p class="text-lg">Let’s Get Solution For Building <br> Construction Work</p>
+                        </div>
+                        <div class="flex justify-between mt-2 p-3">
+                            <p> 22 June,2024</p>
+                            <p class="fa-solid fa-arrow-right bg-mycolor p-2 rounded-full"></p>
+                        </div>
+                    </div>
+                    <div class="rounded-3xl  border p-2">
+                        <div class="card rounded-3xl overflow-hidden">
+                            <img src="./assets/news/02.png" alt="">
+                        </div>
+                        <div>
+                            <p class="text-lg">Let’s Get Solution For Building <br> Construction Work</p>
+                        </div>
+                        <div class="flex justify-between mt-2 p-3">
+                            <p> 22 June,2024</p>
+                            <p class="fa-solid fa-arrow-right bg-mycolor p-2 rounded-full"></p>
+                        </div>
+                    </div>
+                    <div class="rounded-3xl  border p-2">
+                        <div class="card rounded-3xl overflow-hidden">
+                            <img src="./assets/news/03.png" alt="">
+                        </div>
+                        <div>
+                            <p class="text-lg">Let’s Get Solution For Building <br> Construction Work</p>
+                        </div>
+                        <div class="flex justify-between mt-2 p-3">
+                            <p> 22 June,2024</p>
+                            <p class="fa-solid fa-arrow-right bg-mycolor p-2 rounded-full"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="intor-con mt-20">
+                    <div class="w-full bg-slate-900 text-center rounded-3xl p-10 text-white ">
+                        <p class=" text-3xl">Do you want to join Interno?</p>
+                        <p class="pt-2">Lorem ipsum dolor sit amet lit. Modi, tempora!</p>
+                        <button class=" mt-3 px-3 py-2 bg-mycolor text-white rounded-lg"> Contact with us <span
+                                class="fa-solid fa-arrow-right text-black"></span></button>
+                    </div>
+                </div>
+                </section>
+
+                <!-- footer -->
+                <section id="contact">
+                <footer class="pb-20 pt-20 mt-20 flex flex-wrap gap-20 md:justify-center items-center p-3 ">
+                    <div class="flex flex-col ">
+                        <img src="./assets/logo.svg" alt="">
+                        <p class="pt-10">
+                            Lorem, ipsum dolor sit amet con <br>sec tetur adipisicing elit. <br> Officiis, dolore!
+                        </p>
+                        <div class="social-icons flex gap-5 mt-5 text-mycolor ">
+                            <span class="fa-brands fa-facebook"></span>
+                            <span class="fa-brands fa-twitter"></span>
+                            <span class="fa-brands fa-linkedin"></span>
+                            <span class="fa-brands fa-youtube"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="font-semibold text-lg">Pages</h2>
+                        <ul class="flex flex-col gap-5">
+                            <li class=" cursor-pointer hover:border-b-mycolor  border-2 border-transparent">
+                                <a href="#about"> About</a></li>
+                             <li class=" cursor-pointer hover:border-b-mycolor  border-2 border-transparent">
+                              <a href="#test">Testimonial</a> </li>
+                             <li class=" cursor-pointer hover:border-b-mycolor  border-2 border-transparent">
+                                <a href="#project"> Our Work</a></li>
+                             <li class=" cursor-pointer hover:border-b-mycolor  border-2 border-transparent">
+                                <a href="#news">News</a> </li>
+                             <li class=" cursor-pointer hover:border-b-mycolor  border-2 border-transparent">
+                                <a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="font-semibold text-lg">Services</h2>
+                        <ul class="flex flex-col gap-5">
+                            <li> Kitchen</li>
+                            <li> Living Area</li>
+                            <li>Bathroom</li>
+                            <li>Bedroom</li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col gap-5 ">
+                        <h2 class="font-semibold text-lg">Contact us</h2>
+                        <p>
+                            Palm garden yellow leaf <br>
+                            b-17 first floor ,141120 <br>
+                            Ludhiana punjab
+                        </p>
+                        <p>Sunnywebdev@gmail.com</p>
+                        <p>9876352006</p>
+                    </div>
+
+                </footer>
+            </section>
+            </div>
+
+
+        </section>
+
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
